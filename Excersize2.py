@@ -6,5 +6,7 @@ if(hour>5 and hour<12):
     print("Hello Good morning",name)
 elif(hour>=12 and hour<16):
     print("Hello good Afternoon",name)
+elif(hour>=20 and hour<5):
+    print("Hello good night",name)
 else:
     print("Hello good evening",name)
